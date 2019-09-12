@@ -17,10 +17,10 @@ STATION_TRAINS = [
 ]
 
 # 出发城市，比如深圳北，就填深圳就搜得到
-FROM_STATION = ""
+FROM_STATION = "北京"
 
 # 到达城市 比如深圳北，就填深圳就搜得到
-TO_STATION = ""
+TO_STATION = "侯马"
 
 # 座位(list) 多个座位ex:
 # "商务座",
@@ -33,7 +33,7 @@ TO_STATION = ""
 # "无座",
 # "动卧",
 SET_TYPE = [
-    "",
+    "硬座",
 ]
 
 # 当余票小于乘车人，如果选择优先提交，则删减联系人和余票数一致在提交
@@ -44,12 +44,12 @@ IS_MORE_TICKET = True
 # - "张三"
 # - "李四"
 TICKET_PEOPLES = [
-    "",
+    "孙杰辉",
 ]
 
 # 12306登录账号
-USER = ""
-PWD = "QWERTY"
+USER = "sunjiehui001"
+PWD = ""
 
 # 加入小黑屋时间默认为5分钟，此功能为了防止僵尸票导致一直下单不成功错过正常的票
 TICKET_BLACK_LIST_TIME = 5
@@ -110,7 +110,8 @@ OPEN_TIME = "13:00:00"
 COOKIE_TYPE = 1
 # 如果COOKIE_TYPE=1，则需配置chromeDriver路径,下载地址http://chromedriver.storage.googleapis.com/index.html
 # chromedriver配置版本只要和chrome的大版本匹配就行
-CHROME_PATH = "/Users/wenxianping/Downloads/chromedriver"
+# CHROME_PATH = "/Users/wenxianping/Downloads/chromedriver"
+CHROME_PATH = "C:\hui\down\Chrome75_64bit_v2rayN_2019.6.23\App\chromedriver.exe"
 
 PASSENGER_TICKER_STR = {
     '一等座': 'M',
